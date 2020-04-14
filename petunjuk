@@ -1,0 +1,19 @@
+// access token hasil dari register
+{
+    "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC8xMjcuMC4wLjE6ODAwMFwvYXBpXC9yZWdpc3RlciIsImlhdCI6MTUzNjYzMzE3NiwiZXhwIjoxNTM2NjM2Nzc2LCJuYmYiOjE1MzY2MzMxNzYsImp0aSI6IndpajRlMkhYNVNtRFRlc2giLCJzdWIiOjIsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.JjqGtPu4yJc-EUcgUD39miUrC7UVjEWE6HcJrRjB44E",
+    "token_type": "bearer",
+    "expires_in": 3600
+}
+
+// url buat input buku (method: POST)
+http://127.0.0.1:8000/api/books/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC8xMjcuMC4wLjE6ODAwMFwvYXBpXC9sb2dpbiIsImlhdCI6MTUzNjYzMzM0MiwiZXhwIjoxNTM2NjM2OTQyLCJuYmYiOjE1MzY2MzMzNDIsImp0aSI6IlNldGN5N2FuSzlFRHhZRW8iLCJzdWIiOjIsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.lmYYUs3pPijGTMJlxspn3EpcY8yX8tG8QgqSW2B-qFA
+
+// url buat input rating (method: POST)
+http://127.0.0.1:8000/api/books/1/ratings/?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC8xMjcuMC4wLjE6ODAwMFwvYXBpXC9sb2dpbiIsImlhdCI6MTUzNjYzMzM0MiwiZXhwIjoxNTM2NjM2OTQyLCJuYmYiOjE1MzY2MzMzNDIsImp0aSI6IlNldGN5N2FuSzlFRHhZRW8iLCJzdWIiOjIsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.lmYYUs3pPijGTMJlxspn3EpcY8yX8tG8QgqSW2B-qFA
+
+// access token hasil dari login
+{
+    "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC8xMjcuMC4wLjE6ODAwMFwvYXBpXC9sb2dpbiIsImlhdCI6MTUzNjYzMzM0MiwiZXhwIjoxNTM2NjM2OTQyLCJuYmYiOjE1MzY2MzMzNDIsImp0aSI6IlNldGN5N2FuSzlFRHhZRW8iLCJzdWIiOjIsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.lmYYUs3pPijGTMJlxspn3EpcY8yX8tG8QgqSW2B-qFA",
+    "token_type": "bearer",
+    "expires_in": 3600
+}
